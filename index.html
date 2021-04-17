@@ -9,10 +9,22 @@
 </head>
 <body>
     <section class="backgroundHome">
-        <div class="home">
-            <h1 class="logoBot">Logo Here</h1>
-            <h2 class="welcomeText">Bem-vindo meu nome é Lavender sou um bot para o discord :)</h2>
+        <div id="home" class="home">
+            <nav>
+                <a href="#menu" class="ButtonMenu_Open ButtonMenu">Entrar</a>
+                <ul id="#menu" class="Menu">
+                     <li class="ButtonMenu_close ButtonMenu">Sair</li>
+                     <li class="MenuItem "><a href="#home" class="MenuItem_action">Inicio</a></li>
+                     <li class="MenuItem "><a href="#about" class="MenuItem_action">Sobre</a></li>
+                     <li class="MenuItem "><a href="#contact" class="MenuItem_action">Contato</a></li>
+                </ul>
+             </nav>
+            <img class="logoBot" src="assets/images-3.jpeg">
+            <h2 class="welcomeText">Bem-vindo meu nome é <span>Lavender</span> sou um bot para o discord </h2>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=815401607365263400&permissions=8&scope=bot" target="_blank"><input class="buttonLinkBot" type="submit" value="Adicione me"></a>
         </div>
     </section>
+    <script src="buttonMenu.js"></script>
+    <script src="menuAnimation.js"></script>
 </body>
 </html>
