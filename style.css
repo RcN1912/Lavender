@@ -133,7 +133,17 @@ a {
     border: 2px solid #880974;
     color: #880974;
 }
-@media screen and (min-width:720px) {
+@media screen and (min-width:480px) and (max-width:480px) {
+    .buttonLinkBot {
+        display: block;
+        margin: 110% 0  auto;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+@media screen and (min-width:720px) and (max-width:720px) {
     .home {
         margin: 5% 0 0 7%;
     }
@@ -144,6 +154,25 @@ a {
     .buttonLinkBot {
         display: block;
         margin: 60% 0  auto;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1024px) {
+    .home {
+        margin: 0 0 0 7%;
+    }
+    .welcomeText {
+        top: 0;
+        left: 0;
+        margin-top: -0%;
+        margin-left: 10%;
+    }
+    .buttonLinkBot {
+        display: block;
+        margin: 20% 0  auto;
         margin-left: auto;
         margin-right: auto;
         left: 0;
