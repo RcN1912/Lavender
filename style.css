@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /*Reset da página*/
+body {
+    background-color: #23272A;
+}
 * {
     padding:0;
     margin:0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    color:#FFFFFF;
 }
 ul {
     list-style-type: none;
@@ -62,120 +66,32 @@ a {
     font-size:12px;
 }
 /*Home*/
-.backgroundHome {
-    position: absolute;
-    width:100%;
+.HOME {
+    width: 100vw;
     height:100%;
-    background-image: url(assets/wallhaven-x8elol.png);
-    background-position: center;
-    background-size: cover;
+    background-color: #23272A;
 }
-.home {
-    position: relative;
-    width:90vw;
-    height:90vh;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: 5% 0 0 5%;
-    background:black;
-    background:rgba(0,0,0,0.7);
-    border-radius: 9px;
-}
-.logoBot {
-    top: 0;
-    left: 0;
-    display: block;
-    margin: auto auto;
-    border-radius: 50%;
-}
-.welcomeText {
-    color: #FFFFFF; 
-    position: absolute;
-    width: 80%;
-    top: 0;
-    left: 0;
-    margin-top: 70%;
-    margin-left: 10%;
+.HOME h1 {
+    color: #7289DA;
+    width: 90%;
+    height: 100%;
+    top:0;
+    left:0;
+    margin: 30% 5% 0 5%;
     text-align: center;
-    font-size: 2em;
-    text-transform: uppercase;
-    z-index: 3;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Anton',sans-serif;
 }
-.welcomeText  span {
-    color: #880974;
-    font-family: 'Anton', sans-serif;
-}
-.buttonLinkBot {
-    transition: 1000ms ease;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    width:200px;
-    height: 50px;
-    border-radius: 6px;
-    top: 0;
-    left: 0;
-    display: block;
-    margin: 150% 0  auto;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0);
-    color:#FFFFFF;
-    border: 2px solid #FFFFFF
-}
-.buttonLinkBot:hover {
-    cursor: pointer;
-    transition: 1000ms ease;
-    border: 2px solid #880974;
-    color: #880974;
+.BLOB_ONE {
+    position: inherit
+    width: 100%;
+    height:100%;
 }
 @media screen and (min-width:480px) and (max-width:480px) {
-    .buttonLinkBot {
-        display: block;
-        margin: 110% 0  auto;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
+    
 }
 @media screen and (min-width:720px) and (max-width:720px) {
-    .home {
-        margin: 5% 0 0 7%;
-    }
-    .welcomeText {
-        margin-top: 40%;
-        margin-left: 10%;
-    }
-    .buttonLinkBot {
-        display: block;
-        margin: 60% 0  auto;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
+    
 }
 @media screen and (min-width:1024px) and (max-width:1024px) {
-    .home {
-        margin: 0 0 0 7%;
-    }
-    .welcomeText {
-        top: 0;
-        left: 0;
-        margin-top: -0%;
-        margin-left: 10%;
-    }
-    .buttonLinkBot {
-        display: block;
-        margin: 20% 0  auto;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
+
 }
