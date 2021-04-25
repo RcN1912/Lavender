@@ -72,19 +72,24 @@ a {
     background-color: #23272A;
 }
 .HOME h1 {
-    color: #7289DA;
-    width: 90%;
+    color: transparent;
+    width: 100%;
     height: 100%;
     top:0;
     left:0;
-    margin: 30% 5% 0 5%;
+    margin: 0% 5% 0 0%;
     text-align: center;
     font-family: 'Anton',sans-serif;
+    background: url("assets/wallhaven-0po9lm_480x480.png");
+    background-clip: text;
 }
-.BLOB_ONE {
-    position: inherit
-    width: 100%;
+.HOME img {
+    width:90%;
     height:100%;
+    top:0;
+    left:0;
+    margin: 0% 0% 0 0%;
+    float: right;
 }
 @media screen and (min-width:480px) and (max-width:480px) {
     
