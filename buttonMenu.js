@@ -1,11 +1,11 @@
-const menu = document.querySelector('.Menu')
-const ButtonMenu_Open = document.querySelector('.ButtonMenu_Open')
-const ButtonMenu_close = document.querySelector('.ButtonMenu_close')
+const menu = document.querySelector('.menu')
+const ButtonMenu_Open = document.querySelector('.buttonMenuOpen')
+const ButtonMenu_close = document.querySelector('.buttonMenuclose')
 
 ButtonMenu_Open.addEventListener('click', function(){
-    menu.classList.add('Menu_Open')
+    menu.classList.add('menuOpen')
 })
 
 ButtonMenu_close.addEventListener('click', function(){
-    menu.classList.remove('Menu_Open')
+    menu.classList.remove('menuOpen')
 })
