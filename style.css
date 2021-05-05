@@ -28,22 +28,26 @@ a {
     left:0%;
     transform: translateX(-100%);
     transition: transform 400ms ease;
-    color:#6C63FF;
-    background-color: #6C63FF ;
+    background-color: #23272A;
 }
 .menuOpen {
     transform: translateX(0%);
 }
 .buttonMenu {
     display:block;
-    width: 100%;
+    top:0;
+    left:0;
+    width: 5%;
     background-position: 10px center;
     background-repeat: no-repeat;
     padding:12px 12px;
+    margin:1% 1%;
     text-indent: 9999px;
 }
 .buttonMenuOpen {
     background-image: url(assets/menu.png);
+    background-color: #ff0000;
+    border-radius: 9%;
 }
 .buttonMenuClose {
     background-image: url(assets/cancel.png);
@@ -55,6 +59,10 @@ a {
     text-align: center;
     border-bottom: 1px solid #23272A;
 }
+.MenuItem a{
+    color:#FF0000;
+    font-family: 'Anton', sans-serif;
+    } 
 /*Home*/
 
 @media screen and (min-width:480px) and (max-width:480px) {
